@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-link {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-Btn {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    margin-top: 16px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-Container {
+    width: 350px;
+    padding: 16px;
+}
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.information-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 32px;
+}
+
+.image-Content {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 100px;
+}
+
+.item {
+    max-width: 200px;
+    padding: 16px;
+}
+
+.item img {
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.quote-Section {
+    background-color: #e5e7eb;
+    padding: 120px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-Text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quoter {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.signup-Box {
+    background-color: #3882F6;
+    color: white;
+    margin: 100px;
+    padding: 48px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-Btn {
+    border: 2px white solid;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 38px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.one{
+    font-size: 24px;
+    font-weight: 500;
+}
+.two{
+    font-weight: lighter;
+}
+
+.footer p{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 42px;
+}
